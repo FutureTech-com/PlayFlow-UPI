@@ -10,7 +10,7 @@ npm run dev
 ```
 
 App runs at http://localhost:5173. API calls to `/api/*` are proxied to
-`http://localhost:8080` (the Spring Boot backend) via `vite.config.js` in dev,
+`http://localhost:8082` (the Spring Boot backend) via `vite.config.js` in dev,
 and via nginx in the Docker image.
 
 ## Structure
